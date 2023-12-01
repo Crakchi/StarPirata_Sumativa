@@ -1,0 +1,68 @@
+.Home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #0A0C15;
+  }
+  .logo{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    flex-direction: column;
+    h5{
+      color: #cfcfcf;
+    }
+  }
+  .Premeres{
+    height: 35rem;
+    width: 22.875rem;
+    overflow-y:hidden;
+    
+    .new{
+      display: flex;
+      flex-direction: row;
+      img{
+        margin-right: 2rem;
+        height: 28rem;
+      }
+    }
+  }
+  input{
+    background-color: aliceblue;
+    color: #0A0C15;
+    border: 0;
+    border-radius: 0.5rem;
+    width: 18rem;
+    height: 2.3rem;
+    margin-bottom: 0.59rem;
+  }
+  p{
+    text-align: start;
+    margin-bottom: 0.2rem;
+  }
+  
+  ion-button {
+    
+    --background: rgb(255, 110, 14);
+    --background-hover: #0A0C15;
+    --background-activated: #0A0C15;
+    --background-focused: #0A0C15;
+  
+    
+    --color: #0A0C15;
+    
+    --border-style:solid;
+    --border-width:1px;
+    
+    --border-radius: 0.5rem;
+  
+    --padding-top: 0.1rem;
+    --padding-bottom: 0.1rem;
+    h2{
+      color: aliceblue;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+  }
+  

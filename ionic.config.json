@@ -1,0 +1,7 @@
+{
+  "name": "Star-",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
